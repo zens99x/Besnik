@@ -629,7 +629,7 @@ a {
 }
 
 .footer .social-link {
-    /* Vì thẻ chả là .social đã có display:flex nên ko cần thêm display: block để set height, width */
+    /* Vì thẻ cha là .social đã có display:flex nên ko cần thêm display: block để set height, width */
     display: flex;
     align-items: center;
     justify-content: center; /* display: flex, align-item và justify-content: center là để căn giữa*/
